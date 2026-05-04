@@ -61,7 +61,7 @@ export default function Leaders() {
 
       {/* Título */}
       <h3 className="text-3xl md:text-4xl font-bold text-white mb-16">
-        ORGANIZADORES
+        ORGANIZADORES 2025
       </h3>
 
       {/* Grid */}
