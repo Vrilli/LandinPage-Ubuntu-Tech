@@ -55,47 +55,58 @@ const images = [
 export default function SpeakersGallery() {
   return (
     <div>
-      <section id="speakers" className="px-6 py-24 bg-[#07111F]">
+      <section id="speakers" className="px-4 md:px-6 py-20 bg-[#07111F]">
+
         {/* Título */}
-        <h2 className="text-center text-4xl md:text-3xl font-bold text-orange-500 tracking-[0.3em] mb-16">
+        <h2 className="text-center text-3xl md:text-4xl font-bold text-orange-500 tracking-[0.2em] mb-14">
           SPEAKERS 2026
         </h2>
 
         {/* Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
           {speakers.map((speaker, i) => (
             <div
               key={i}
-              className="relative group rounded-2xl overflow-hidden cursor-pointer bg-gray-900"
+              className="relative group rounded-3xl overflow-hidden bg-gray-900 border border-white/5 hover:border-orange-500/40 transition duration-500"
             >
+
               {/* Imagen */}
-              <div className="relative h-[200px] md:h-[240px]">
+              <div className="relative h-[300px] sm:h-[260px] md:h-[300px] overflow-hidden">
                 <Image
                   src={speaker.image}
                   alt={speaker.name}
                   fill
-                  sizes="(max-width: 768px) 50vw, 33vw"
-                  className="object-cover object-top group-hover:scale-110 transition duration-700"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover object-top group-hover:scale-105 transition duration-700"
                 />
 
-                {/* Overlay oscuro */}
-                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition" />
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
               </div>
 
-              {/* Info */}
-              <div className="p-4 text-white">
-                <h3 className="font-semibold text-lg">{speaker.name}</h3>
+              {/* Información */}
+              <div className="p-5 text-white">
 
-                <p className="text-orange-500 text-sm">{speaker.role}</p>
+                <h3 className="text-xl font-bold mb-1">
+                  {speaker.name}
+                </h3>
 
-                <p className="text-gray-400 text-sm mt-2">{speaker.bio}</p>
+                <p className="text-orange-500 text-sm font-medium mb-3">
+                  {speaker.role}
+                </p>
+
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  {speaker.bio}
+                </p>
+
               </div>
 
-              {/* Glow borde */}
-              <div className="absolute inset-0 border border-transparent group-hover:border-orange-500 rounded-2xl transition pointer-events-none" />
             </div>
           ))}
+
         </div>
+
       </section>
 
       {/* seccion speakers 2025 */}
