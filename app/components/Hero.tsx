@@ -16,12 +16,14 @@ export default function Hero() {
           <p className="text-orange-500"> Ubuntu Tech<span className="text-base"> (Soy porque somos!)</span></p>
         </h2>
         <div className="mt-6 flex gap-4">
-          <button className="bg-orange-500 px-6 py-3 rounded-xl text-black">
-            Únete al evento
-          </button>
-          <button className="border border-gray-600 px-6 py-3 rounded-xl">
+          <a
+            href="https://www.instagram.com/ubuntu_tech?igsh=ZnJ4Zmh2NDRpanA3"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-gray-600 px-6 py-3 rounded-xl hover:border-orange-500 hover:text-orange-500 transition"
+          >
             Conoce más
-          </button>
+          </a>
         </div>
       </div>
 

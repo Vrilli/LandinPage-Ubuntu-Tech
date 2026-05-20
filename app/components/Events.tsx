@@ -45,9 +45,14 @@ export default function Events() {
               <li>Talleres prácticos</li>
               <li>Networking</li>
             </ul>
-            <button className="mt-6 bg-orange-500 px-6 py-3 rounded-xl text-black">
+            <a
+              href="/agenda-construccion.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block bg-orange-500 px-6 py-3 rounded-xl text-black font-semibold hover:scale-105 transition"
+            >
               Ver agenda
-            </button>
+            </a>
           </div>
 
           <div className="bg-gray-900 p-8 rounded-xl text-center">

@@ -13,9 +13,14 @@ export default function Navbar() {
         <a href="#sponsors">Sponsors</a>
         <a href="#contacto">Contacto</a>
       </div>
-      <button className="bg-orange-500 px-4 py-2 rounded-xl text-black font-semibold">
+      <a
+        href="https://www.instagram.com/ubuntu_tech?igsh=ZnJ4Zmh2NDRpanA3"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-orange-500 px-4 py-2 rounded-xl text-black font-semibold hover:scale-105 transition inline-block"
+      >
         Únete
-      </button>
+      </a>
     </nav>
   );
 }
