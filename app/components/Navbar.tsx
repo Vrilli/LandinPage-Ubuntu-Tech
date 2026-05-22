@@ -5,14 +5,14 @@ export default function Navbar() {
     <nav className="w-full flex items-center justify-between px-4 md:px-6 py-4 border-b border-gray-800">
 
       {/* Logo */}
-      <div className="relative w-[140px] md:w-[220px] lg:w-[260px] h-[50px] md:h-[70px]">
+      <div className="relative w-[170px] md:w-[260px] lg:w-[380px] h-[55px] md:h-[85px]">
         <Image
           src="/imagen/logoUbuntu2026.png"
           alt="Logo Ubuntu Tech"
           fill
           priority
-          sizes="(max-width: 768px) 140px, 220px"
-          className="object-contain object-left"
+          sizes="(max-width: 768px) 170px, (max-width: 1024px) 260px, 380px"
+          className="object-contain object-left drop-shadow-[0_0_12px_rgba(249,115,22,0.35)]"
         />
       </div>
 

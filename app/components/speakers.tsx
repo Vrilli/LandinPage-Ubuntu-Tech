@@ -17,28 +17,28 @@ const speakers = [
     image: "/speakers/2026/MarisB.jpeg",
   },
   {
-    name: "Speaker 3",
-    role: "UX Designer",
+    name: "Marian Villa",
+    role: "CEO de PionerasDev, Google Developer Expert y Embajadora de Google Women Techmakers",
     bio: "Diseño centrado en personas.",
-    image: "/speakers/2026/speaker3.jpg",
+    image: "/speakers/marian.png",
   },
   {
-    name: "Speaker 4",
-    role: "Data Analyst",
+    name: "Veronica Rodríguez",
+    role: "Economista y Senior Product Manager.",
     bio: "Datos que transforman decisiones.",
-    image: "/speakers/2026/speaker4.jpg",
+    image: "/speakers/2026/veronica_rodriguez.png",
   },
   {
-    name: "Speaker 5",
+    name: "Por Confirmar",
     role: "QA Engineer",
     bio: "Calidad desde el código.",
-    image: "/speakers/2026/speaker5.jpg",
+    image: "/speakers/2026/ejemplo.png",
   },
   {
-    name: "Speaker 6",
+    name: "Por Confirmar",
     role: "DevOps",
     bio: "Automatización y escalabilidad.",
-    image: "/speakers/2026/speaker6.jpg",
+    image: "/speakers/2026/ejemplo.png",
   },
 ];
 
