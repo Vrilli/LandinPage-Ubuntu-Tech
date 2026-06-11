@@ -1,24 +1,77 @@
 import Image from "next/image";
 
+interface Sponsor {
+  logo: string;
+  width: number;
+  height: number;
+}
+
+interface SponsorTierProps {
+  title: string;
+  logos: Sponsor[];
+  glow: string;
+  border: string;
+  bg: string;
+}
+
+
 const sponsors2026 = {
   oro: [
-    "/sponsors/2026/interledger.svg",
-    "/sponsors/2026/busquedad.png",
-    "/sponsors/2026/busquedad.png",
+    {
+      logo: "/sponsors/2026/interledger.svg",
+      width: 220,
+      height: 80,
+    },
+    {
+      logo: "/sponsors/2026/busquedad.png",
+      width: 180,
+      height: 80,
+    },
+    {
+      logo: "/sponsors/2026/busquedad.png",
+      width: 180,
+      height: 80,
+    },
   ],
 
   plata: [
-    "/sponsors/2026/busquedad.png",
-    "/sponsors/2026/busquedad.png",
-    "/sponsors/2026/busquedad.png",
+    {
+      logo: "/sponsors/2026/busquedad.png",
+      width: 180,
+      height: 80,
+    },
+    {
+      logo: "/sponsors/2026/busquedad.png",
+      width: 180,
+      height: 80,
+    },
+    {
+      logo: "/sponsors/2026/busquedad.png",
+      width: 180,
+      height: 80,
+    },
   ],
 
   bronce: [
-    "/sponsors/2026/busquedad.png",
-    "/sponsors/2026/busquedad.png",
-    "/sponsors/2026/busquedad.png",
+    {
+      logo: "/sponsors/2026/HotelGalu.png",
+      width: 180,
+      height: 110,
+    },
+    {
+      logo: "/sponsors/2026/busquedad.png",
+      width: 180,
+      height: 80,
+    },
+    {
+      logo: "/sponsors/2026/busquedad.png",
+      width: 180,
+      height: 80,
+    },
   ],
 };
+
+
 
 export default function Sponsors() {
   return (
@@ -278,20 +331,12 @@ export default function Sponsors() {
   );
 }
 
-interface SponsorTierProps {
-  title: string;
-  logos: string[];
-  glow: string;
-  border: string;
-  bg: string;
-}
 
 function SponsorTier({
   title,
   logos,
   glow,
   border,
-  bg,
 }: SponsorTierProps) {
   return (
     <div className="mb-20">
@@ -312,22 +357,20 @@ function SponsorTier({
       {/* GRID */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
 
-        {logos.map((logo, i) => (
+        {logos.map((sponsor, i) => (
           <div
             key={i}
-            className={`relative bg-[#F5F5F5] ${border} border rounded-3xl p-6 flex items-center justify-center h-[120px] shadow-lg ${glow} hover:scale-105 hover:bg-white transition duration-300`}
+            className={`bg-[#F8F8F8] ${border} border rounded-3xl h-[140px] flex items-center justify-center shadow-lg ${glow}`}
           >
-
-            <div className="relative w-full h-full">
+            <div className="flex items-center justify-center w-[220px] h-[80px]">
               <Image
-                src={logo}
+                src={sponsor.logo}
                 alt="Sponsor Ubuntu Tech"
-                fill
-                sizes="(max-width: 768px) 50vw, 25vw"
-                className="object-contain"
+                width={sponsor.width}
+                height={sponsor.height}
+                className="object-contain max-w-full max-h-full"
               />
             </div>
-
           </div>
         ))}
 

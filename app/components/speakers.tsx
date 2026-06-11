@@ -19,8 +19,8 @@ const speakers = [
   {
     name: "Marian Villa",
     role: "CEO de PionerasDev, Google Developer Expert y Embajadora de Google Women Techmakers",
-    bio: "Diseño centrado en personas.",
-    image: "/speakers/marian.png",
+    bio: "Devrel en Interledger. Trabaja con proyectos como Open Payments y Web Monetization. Co-fundadora de PionerasDev, con +15 años de experiencia como Líder técnica, Diseñadora  de Productos Digitales y  con experiencia en Creación de Comunidades. Le gusta crear Contenido Técnico y apoyar Diseño de Productos, especialmente en tecnologías Open Source. Es Google Developer Expert en Tecnologías Web (HTML-CSS-Javascript), Embajadora WTM , y Mentora en Google for startups. Es Fellow de la Real Academia de Ingeniería de Londres.",
+    image: "/speakers/2026/Marian.png",
   },
   {
     name: "Veronica Rodríguez",

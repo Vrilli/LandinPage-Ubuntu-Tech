@@ -5,14 +5,22 @@ import Image from "next/image";
 const Organizer = [{
   name: "Vrilli Castro",
   role: "Creadora de Ubuntu Tech, Lider de PionerasDev y Digital Diaspora",
-  bio: "Vrilli Castro es la visionaria detrás de Ubuntu Tech, una iniciativa que conecta comunidades con talento afrocolombiano en tecnología. Con una trayectoria destacada como líder de PionerasDev y Digital Diaspora, Vrilli ha impulsado la inclusión y el desarrollo tecnológico en Colombia(Medellín y Quibdó). Su pasión por la tecnología y su compromiso con la diversidad han sido fundamentales para crear un espacio donde el talento afrocolombiano pueda brillar y generar impacto real en la industria tecnológica.",
   image: "/organizadores/vri.png",
 }, {
   name: "Valentina Ariza",
   role: "Embajadora de Google Women Techmakers,Co-Lider de la comunidad Pyladies Medellín y Co-Fundadora del Podcast DataSoul.",
-  bio: "Valentina Ariza es una apasionada por la tecnología y la diversidad. Como Embajadora de Google Women Techmakers, Co-Lider de la comunidad Pyladies Medellín y Co-Fundadora del Podcast DataSoul, Valentina trabaja para promover la inclusión y el empoderamiento de las mujeres en la industria tecnológica.",
   image: "/organizadores/valen.png",
 },
+{
+    name: "Greisy Rodríguez",
+    role: "Lider de PionerasDev, Geek Girls Latam y Embajadora de Google Women Techmakers.",
+    image: "/organizadores/GREY.png",
+  },
+  {
+    name: "Sandra Palacios",
+    role: "Red pensando al Chocó",
+    image: "/organizadores/sandra.png",
+  },
 ]
 
 const leaders = [
@@ -106,11 +114,6 @@ export default function Leaders() {
               {/* Rol */}
               <p className="text-gray-400 text-sm mt-2 max-w-[200px]">
                 {organizer.role}
-              </p>
-
-              {/* Bio */}
-              <p className="text-gray-400 text-sm mt-2 max-w-[250px]">
-                {organizer.bio}
               </p>
             </div>
           ))}
