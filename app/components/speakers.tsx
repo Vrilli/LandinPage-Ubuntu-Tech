@@ -36,9 +36,9 @@ const speakers = [
   },
   {
     name: "Rina Plata",
-    role: "Dev",
-    bio: "Automatización y escalabilidad.",
-    image: "/speakers/2026/ejemplo.png",
+    role: "Ingeniera de software y desarrolladora frontend, Creadora de Guardianes ancestrales, lider en PionerasDev y Embajadora de Google Women Techmakers",
+    bio: "Le apasiona crear tecnología con impacto, combinando desarrollo web, accesibilidad e inteligencia artificial para construir experiencias digitales más inclusivas. Es fundadora de Guardianes Ancestrales, una iniciativa que acerca la tecnología y la educación a comunidades indígenas, y participa activamente en comunidades tecnológicas como Women Techmakers, WiDS Medellín, Tech Community y otras comunidades de tecnología en Colombia. Además, ha sido conferencista, mentora y voluntaria en diversos eventos tecnológicos, compartiendo conocimientos sobre desarrollo de software, accesibilidad e inteligencia artificial para impulsar una tecnología más accesible y diversa.",
+    image: "/speakers/2026/rina.jpg",
   },
 ];
 
