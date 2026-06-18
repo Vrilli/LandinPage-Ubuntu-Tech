@@ -24,7 +24,7 @@ const speakers = [
   },
   {
     name: "Veronica Rodríguez",
-    role: "Economista y Directora senior de productos en Twilio",
+    role: "Economista, Directora senior de productos en Twilio y Embajadora de Google Women Techmakers",
     bio: "Líder tecnológica afrocolombiana, promotora de comunidades y estratega de productos con más de 10 años de experiencia al frente de productos digitales. Verónica está profundamente comprometida con la ampliación de oportunidades para las comunidades infrarrepresentadas en el ámbito tecnológico. Es cofundadora de Digital Diaspora, una iniciativa dedicada a aumentar la representación de personas afrodescendientes en la industria tecnológica. También es embajadora de Google Women Techmakers, líder dentro de Pioneras, becaria del programa YLAI del Departamento de Estado de EE. UU. y defensora activa de la diversidad, la equidad y la inclusión en el ecosistema tecnológico. A través de charlas, programas comunitarios y colaboraciones internacionales, trabaja para crear vías de movilidad económica y liderazgo para las mujeres, las personas afrodescendientes y el talento emergente en toda América Latina.",
     image: "/speakers/2026/Vero.jpeg",
   },
