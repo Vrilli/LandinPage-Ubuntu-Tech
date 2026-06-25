@@ -13,7 +13,7 @@ const eventImages = [
 ];
 
 export default function Events() {
-
+  const [open, setOpen] = useState(false);
   const [days, setDays] = useState(0);
 
   useEffect(() => {
@@ -40,19 +40,35 @@ export default function Events() {
 
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <ul className="space-y-3 text-gray-400">
-              <li>Charlas inspiradoras</li>
-              <li>Talleres prácticos</li>
-              <li>Networking</li>
+            <ul className="space-y-3 text-gray-300">
+              <li><b>Charlas inspiradoras</b></li>
+              <li><b>Talleres prácticos</b></li>
+              <li><b>Networking</b></li>
             </ul>
-            <a
-              href="/agenda-construccion.png"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-block bg-orange-500 px-6 py-3 rounded-xl text-black font-semibold hover:scale-105 transition"
-            >
-              Ver agenda
-            </a>
+            <div>
+              <Image
+                src="/Agenda.png"
+                alt="Agenda"
+                width={400}
+                height={200}
+                className="rounded-xl mx-auto my-6 cursor-pointer hover:scale-105 transition"
+                onClick={() => setOpen(true)}
+              />
+              {open && (
+                <div
+                  className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
+                  onClick={() => setOpen(false)}
+                >
+                  <Image
+                    src="/Agenda.png"
+                    alt="Agenda ampliada"
+                    width={1200}
+                    height={1600}
+                    className="max-w-full max-h-[90vh] rounded-xl object-contain"
+                  />
+                </div>
+              )}
+            </div>
           </div>
 
           <div className="bg-gray-900 p-8 rounded-xl text-center">
