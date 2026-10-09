@@ -23,22 +23,16 @@ const speakers = [
     image: "/speakers/2026/Marian.png",
   },
   {
-    name: "Veronica Rodríguez",
-    role: "Economista, Directora senior de productos en Twilio y Embajadora de Google Women Techmakers",
-    bio: "Líder tecnológica afrocolombiana, promotora de comunidades y estratega de productos con más de 10 años de experiencia al frente de productos digitales. Verónica está profundamente comprometida con la ampliación de oportunidades para las comunidades infrarrepresentadas en el ámbito tecnológico. Es cofundadora de Digital Diaspora, una iniciativa dedicada a aumentar la representación de personas afrodescendientes en la industria tecnológica. También es embajadora de Google Women Techmakers, líder dentro de Pioneras, becaria del programa YLAI del Departamento de Estado de EE. UU. y defensora activa de la diversidad, la equidad y la inclusión en el ecosistema tecnológico. A través de charlas, programas comunitarios y colaboraciones internacionales, trabaja para crear vías de movilidad económica y liderazgo para las mujeres, las personas afrodescendientes y el talento emergente en toda América Latina.",
-    image: "/speakers/2026/Vero.jpeg",
-  },
-  {
     name: "Miguel Teheran",
     role: "Desarrollador de software y creador de contenido.",
     bio: "Desarrollador jefe de .NET en SoftServe, diseño e implemento soluciones escalables y robustas utilizando React.js, GitLab, AWS y .NET. Cuento con más de 12 años de experiencia en desarrollo de software, consultoría y arquitectura, trabajando con clientes de diversos sectores y ámbitos. Me apasiona aprender nuevas tecnologías y compartir mis conocimientos con la comunidad. He sido MVP de Microsoft y soy profesor en Platzi, una plataforma de formación en línea. Cuento con certificaciones en Azure, AWS y Scrum, y hablo inglés y español con fluidez. Mi misión es ayudar a las empresas y a los desarrolladores a alcanzar sus objetivos a través de la innovación, la colaboración y la excelencia.",
     image: "/speakers/2026/Miguel.jpg",
   },
   {
-    name: "Rina Plata",
-    role: "Ingeniera de software y desarrolladora frontend, Creadora de Guardianes ancestrales, lider en PionerasDev y Embajadora de Google Women Techmakers",
-    bio: "Le apasiona crear tecnología con impacto, combinando desarrollo web, accesibilidad e inteligencia artificial para construir experiencias digitales más inclusivas. Es fundadora de Guardianes Ancestrales, una iniciativa que acerca la tecnología y la educación a comunidades indígenas, y participa activamente en comunidades tecnológicas como Women Techmakers, WiDS Medellín, Tech Community y otras comunidades de tecnología en Colombia. Además, ha sido conferencista, mentora y voluntaria en diversos eventos tecnológicos, compartiendo conocimientos sobre desarrollo de software, accesibilidad e inteligencia artificial para impulsar una tecnología más accesible y diversa.",
-    image: "/speakers/2026/rina.jpg",
+    name: "Leider Palacios",
+    role: "Docente en la escuela de robotica del Chocó",
+    bio: "Soy docente apasionado por la educación, la tecnología y la innovación. Me destaco por integrar la inteligencia artificial, la programación, la robótica y nuevas metodologías en los procesos de aprendizaje, creando experiencias educativas que conecten la tecnología con las necesidades de mi comunidad.",
+    image: "/speakers/2026/leider.jpeg",
   },
 ];
 

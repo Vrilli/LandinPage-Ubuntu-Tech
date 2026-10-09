@@ -22,36 +22,25 @@ const sponsors2026 = {
       width: 220,
       height: 80,
     },
-    {
-      logo: "/sponsors/2026/busquedad.png",
-      width: 180,
-      height: 80,
-    },
-    {
-      logo: "/sponsors/2026/busquedad.png",
-      width: 180,
-      height: 80,
-    },
   ],
 
-  plata: [
-    {
-      logo: "/sponsors/2026/busquedad.png",
-      width: 180,
-      height: 80,
-    },
-    {
-      logo: "/sponsors/2026/busquedad.png",
-      width: 180,
-      height: 80,
-    },
-    {
-      logo: "/sponsors/2026/busquedad.png",
-      width: 180,
-      height: 80,
-    },
-  ],
-
+  // plata: [
+  //   {
+  //     logo: "/sponsors/2026/busquedad.png",
+  //     width: 180,
+  //     height: 80,
+  //   },
+  //   {
+  //     logo: "/sponsors/2026/busquedad.png",
+  //     width: 180,
+  //     height: 80,
+  //   },
+  //   {
+  //     logo: "/sponsors/2026/busquedad.png",
+  //     width: 180,
+  //     height: 80,
+  //   },
+  // ],
   bronce: [
     {
       logo: "/sponsors/2026/HotelGalu.png",
@@ -59,12 +48,7 @@ const sponsors2026 = {
       height: 110,
     },
     {
-      logo: "/sponsors/2026/busquedad.png",
-      width: 180,
-      height: 80,
-    },
-    {
-      logo: "/sponsors/2026/busquedad.png",
+      logo: "/sponsors/2026/provectus.jpeg",
       width: 180,
       height: 80,
     },
@@ -106,14 +90,14 @@ export default function Sponsors() {
           bg="from-yellow-500/10 to-transparent"
         />
 
-        {/* PLATA */}
+        {/* PLATA
         <SponsorTier
           title="Sponsor Plata"
           logos={sponsors2026.plata}
           glow="shadow-gray-400/10"
           border="border-gray-400/20"
           bg="from-gray-400/10 to-transparent"
-        />
+        /> */}
 
         {/* BRONCE */}
         <SponsorTier

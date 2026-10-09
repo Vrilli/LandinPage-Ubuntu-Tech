@@ -17,7 +17,7 @@ export default function Events() {
   const [days, setDays] = useState(0);
 
   useEffect(() => {
-    const eventDate = new Date("2026-09-05"); // 🔥 fecha del evento
+    const eventDate = new Date("2026-10-24"); // 🔥 fecha del evento
 
     const updateCountdown = () => {
       const today = new Date();
@@ -47,7 +47,7 @@ export default function Events() {
             </ul>
             <div>
               <Image
-                src="/Agenda.png"
+                src="/Agenda.jpeg"
                 alt="Agenda"
                 width={400}
                 height={200}
@@ -60,7 +60,7 @@ export default function Events() {
                   onClick={() => setOpen(false)}
                 >
                   <Image
-                    src="/Agenda.png"
+                    src="/Agenda.jpeg"
                     alt="Agenda ampliada"
                     width={1200}
                     height={1600}
