@@ -17,9 +17,9 @@ const Organizer = [{
     image: "/organizadores/GREY.png",
   },
   {
-    name: "Sandra Palacios",
-    role: "Red pensando al Chocó",
-    image: "/organizadores/sandra.png",
+    name: "Daniela Diazgranados",
+    role: "Ingeniera de Datos - Source Meridian",
+    image: "/organizadores/daniela.jpeg",
   },
 ]
 
